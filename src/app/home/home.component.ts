@@ -16,7 +16,7 @@ export class HomeComponent {
       const m = await loadRemoteModule({
         type: 'module',
         //remoteEntry: "http://localhost:4002/remoteEntry.js",
-        remoteEntry: "https://main--microfrontend-faqs-page.netlify.app/",
+        remoteEntry: "https://main--microfrontend-faqs-page.netlify.app/remoteEntry.js",
         exposedModule:"./Component"
       });
   
