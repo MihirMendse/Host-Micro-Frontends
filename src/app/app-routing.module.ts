@@ -12,7 +12,7 @@ const routes: Routes = [
       return loadRemoteModule({
         type: 'module',
         //remoteEntry:"http://localhost:4001/remoteEntry.js",
-        remoteEntry:"https://micro-frontend-remote-videos.netlify.app/remoteEntry.js/",
+        remoteEntry:"https://micro-frontend-remote-videos.netlify.app/remoteEntry.js",
         exposedModule:"./OrderModule"
       }).then(m=>m.OrderModule).catch(e=>console.log(e)
       );
